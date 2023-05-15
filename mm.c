@@ -27,14 +27,14 @@ team_t team = {
     "week06_team2",
     
     /* First member's full name */
-    "Young woo Kim",
+    "YW",
     /* First member's email address */
-    "uddn@naver.com",
+    "yh@email.com",
     
     /* Third member's full name (leave blank if none) */
-    "Jun ho Shin",
+    "JH",
     /* Third member's email address (leave blank if none) */
-    "sjunho98@gmail.com"
+    "jh@email.com"
 };
 
 // Basic constants and macros
