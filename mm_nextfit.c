@@ -139,11 +139,6 @@ static void *extend_heap(size_t words) {  // 새 가용 블록으로 힙 확장
     // prev block이 free면 coalesce
     return coalesce(bp);
 }
-/* 
- * [김용욱]: 저는 findfit에서 start_nextfit을 갱신해 줘야 작동하는데, 갱신해주지 않아도 작동하네요.
- * 특정 조건없이 반복을 계속해서 수행하는 작업인만큼 for문 보다는 while문이 좀 더 문맥에 맞지 않을까 싶습니다.
- * 처음보는 사람이 본다면 조금 헷갈릴만한 부분인 것 같아요!
- */
 static void *find_fit(size_t asize) {  // next fit
     void *bp;
     
