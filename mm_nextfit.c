@@ -26,12 +26,12 @@ team_t team = {
     /* First member's full name */
     "Young woo Kim",
     /* First member's email address */
-    "uddn@naver.com",
+    "ywkim@email.com",
     
     /* Third member's full name (leave blank if none) */
     "Jun ho Shin",
     /* Third member's email address (leave blank if none) */
-    "sjunho98@gmail.com"
+    "jhshin@email.com"
 };
 
 // 각종 변수, 함수 설정
